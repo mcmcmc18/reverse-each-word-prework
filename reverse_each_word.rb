@@ -1,7 +1,7 @@
 def reverse_each_word(phrase)
 arr_phrase = phrase.split
 arr_phrase.collect do |arr_phrase|
-arr_phrase = arr_phrase.reverse
+new_phrase = arr_phrase.reverse
 end
-arr_phrase = arr_phrase.reverse.join(" ")
+final_phrase = new_phrase.join(" ")
 end
