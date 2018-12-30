@@ -3,7 +3,7 @@ arr_phrase = phrase.split
 arr_phrase.collect do |word|
 arr_phrase = word.reverse
 end
-final_phrase = new_phrase.join(" ")
+phrase.join(" ")
 end
   nuarray = []
   array.map! do |element|
