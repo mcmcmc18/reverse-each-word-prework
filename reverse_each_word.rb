@@ -5,3 +5,9 @@ new_phrase = arr_phrase.reverse
 end
 final_phrase = new_phrase.join(" ")
 end
+  nuarray = []
+  array.map! do |element|
+    element.reverse
+  end 
+array.join(" ")
+end 
