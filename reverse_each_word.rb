@@ -3,5 +3,5 @@ arr_phrase = phrase.split
 arr_phrase.collect do |arr_phrase|
 arr_phrase = arr_phrase.reverse
 end
-arr_phrase = arr_phrase.join(" ")
+arr_phrase = arr_phrase.reverse.join(" ")
 end
