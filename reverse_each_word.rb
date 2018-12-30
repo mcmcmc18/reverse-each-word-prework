@@ -1,7 +1,6 @@
 def reverse_each_word(phrase)
-phrase = 
-phrase.collect do |word|
- new_phrase = word.reverse
- new_phrase
+arr_phrase = phrase.split
+arr_phrase.collect do |arr_phrase|
+arr_phrase.reverse
 end
 end
